@@ -26,7 +26,7 @@ h1.landing {
     color: cornsilk;
     font-family: 'Times New Roman', Times, serif;
     font-weight: 400;
-    font-size: 250%;
+    font-size: 275%;
     margin-bottom: 0%;
 }
 h5.landing {
@@ -66,6 +66,18 @@ h5.landing {
     animation-play-state: running;
     animation-timing-function: ease-in-out;
 }
+/* FUN */
+div.messageBox {
+    margin-left: 25%;
+    margin-right: 25%;
+    border-style: dotted;
+    border-radius: 15%;
+}
+div.messageBox h6 {
+    font-size: 125%;
+    font-family: 'Times New Roman', Times, serif;
+}
+
 
 /*UNIVERSAL*/
 /* Links Bar */
@@ -99,4 +111,11 @@ div.linksBar a {
 div.linksBar a:hover {
     background-color: darkgray;
     color: khaki;
+}
+
+h1.secondTittles {
+    font-size: 225%;
+    font-weight: 500;
+    font-family: 'Times New Roman', Times, serif;
+
 }
