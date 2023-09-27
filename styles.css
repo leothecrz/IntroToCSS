@@ -40,6 +40,12 @@ h5.landing {
 .ABOUTArticle h2 {
     text-decoration: underline;
 }
+.ABOUTArticle summary{
+    cursor: pointer;
+}
+.ABOUTArticle summary:hover{
+    color: darkkhaki;
+}
 .langList {
     overflow: hidden;
     margin-left: 20%;
