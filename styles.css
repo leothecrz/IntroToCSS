@@ -1,4 +1,3 @@
-
 /*DEFAULTS*/
 html {
     filter: none;
@@ -46,7 +45,17 @@ h5.landing {
     margin-left: 20%;
     margin-right: 20%;
     border: 1em dashed bisque;
-    margin-bottom: 5%;
+    margin-bottom: 2%;
+    margin-top: 2%;
+    
+}
+.langList ul {
+    list-style-type: lower-greek;
+    list-style-position: inside;
+    font-size: 120%;
+}
+.langList h4 {
+    font-size: 120%;
 }
 @keyframes boxLogic {
     0% {margin-left: 2%;}
@@ -56,7 +65,7 @@ h5.landing {
     height: 0;
     width: 20%;
     padding-bottom: 20%;
-    border: double whitesmoke 1em;
+    border: double tomato 1em;
     animation-delay: 5s;
     animation-name: boxLogic;
     animation-duration: 5s;
@@ -68,16 +77,45 @@ h5.landing {
 }
 /* FUN */
 div.messageBox {
-    margin-left: 25%;
-    margin-right: 25%;
-    border-style: dotted;
-    border-radius: 15%;
+    margin-left: 30%;
+    margin-right: 30%;
+    border-style: double;
+    border-radius: 50%;
 }
 div.messageBox h6 {
     font-size: 125%;
     font-family: 'Times New Roman', Times, serif;
 }
+ol.funFactsList {
+    font-size: 120%;
+    list-style-type: upper-roman;
+    list-style-position: inside; 
+}
+ol.funFactsList li {
+    margin-top: 1%;
+}
 
+/* Portfolio */
+div.projectContainer {
+    width: 75%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    margin-left: 12%;
+    margin-right: 12%;
+}
+
+div.projectContainer img{
+    width: 80%;
+}
+div.projectContainer h2 { 
+    font-size: 200%;
+}
+div.projectContainer h3 { 
+    font-size: 150%;
+}
+div.projectContainer h5 {
+    font-size: 110%;
+}
 
 /*UNIVERSAL*/
 /* Links Bar */
@@ -119,3 +157,4 @@ h1.secondTittles {
     font-family: 'Times New Roman', Times, serif;
 
 }
+
